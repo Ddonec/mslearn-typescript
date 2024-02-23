@@ -40,7 +40,7 @@ function calculateConventionalLoanPayment(value:ConventionalLoan) {
    return "The conventional loan payment is " + payment.toFixed(2);
 }
 
-let interestOnlyPayment = calculateInterestOnlyLoanPayment({principle: 30000, interestRate: 5});
+let interestOnlyPayment = calculateInterestOnlyLoanPayment({interestRate: 5, principle: 30000});
 let conventionalPayment = calculateConventionalLoanPayment({principle: 30000, interestRate: 5, mounths: 180});
 
 console.log(interestOnlyPayment); //* Returns "The interest only loan payment is 125.00"
