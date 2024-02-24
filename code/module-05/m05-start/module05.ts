@@ -80,3 +80,5 @@ let testArray1 = new BuildArray(12, "ascending");
 let testArray2 = new BuildArray(8, "descending");
 console.log(testArray1.buildArray());
 console.log(testArray2.buildArray());
+
+export var test = 5;
